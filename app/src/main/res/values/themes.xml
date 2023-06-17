@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ELIVRAISON" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/babyblue</item>
+        <item name="colorPrimaryVariant">@color/bluegoroto</item>
+        <item name="colorOnPrimary">@color/royal</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/royal</item>
+        <item name="colorSecondaryVariant">@color/navy</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.ELIVRAISON.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.ELIVRAISON.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.ELIVRAISON.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
